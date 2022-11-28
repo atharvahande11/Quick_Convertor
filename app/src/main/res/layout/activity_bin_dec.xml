@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Bin_Dec"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/basic"
+        android:padding="5sp"
+        android:text="@string/B_D"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/input_box"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="13"
+        android:fontFamily="@font/basic"
+        android:hint="@string/enter_number"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/input_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:ems="13"
+        android:fontFamily="@font/basic"
+        android:padding="5dp"
+        android:text="@string/binary"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/swap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:src="@drawable/ic__swap"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/output_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:ems="13"
+        android:fontFamily="@font/basic"
+        android:padding="5dp"
+        android:text="@string/decimal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+
+        android:id="@+id/convert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corner_purple"
+        android:ems="5"
+        android:fontFamily="@font/basic"
+        android:padding="10dp"
+        android:text="@string/convert"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/output_box"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="13"
+        android:paddingTop="10dp"
+        android:hint="@string/answer"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

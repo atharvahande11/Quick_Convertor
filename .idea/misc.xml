@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/font/basic.xml" value="0.26666666666666666" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_bin_dec.xml" value="0.23645833333333333" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_bin_hex.xml" value="0.23645833333333333" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_dec_hex.xml" value="0.23645833333333333" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_dec_oct.xml" value="0.23645833333333333" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_hex_oct.xml" value="0.23645833333333333" />
+        <entry key="..\:/Project/Application/8 Nov/NumberConversionApplication/app/src/main/res/layout/activity_number_conversion_page.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
